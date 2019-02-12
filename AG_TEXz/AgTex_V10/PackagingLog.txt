@@ -1,0 +1,191 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Sachin\Desktop\AG_TEXz\AgTex_V10\for_redistribution" />
+  <mkdir dir="C:\Users\Sachin\Desktop\AG_TEXz\AgTex_V10\for_testing" />
+  <mkdir dir="C:\Users\Sachin\Desktop\AG_TEXz\AgTex_V10\for_redistribution_files_only" />
+</ant>
+mcc -C -o AgTex_V10 -W WinMain:AgTex_V10 -T link:exe -d C:\Users\Sachin\Desktop\AG_TEXz\AgTex_V10\for_testing -v C:\Users\Sachin\Desktop\AG_TEXz\Test_UI.m 
+[Warning: MATLAB Toolbox Path Cache is out of date and is not being used.
+Type 'help toolbox_path_cache' for more info] 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+Begin validation of MEX files: Fri Nov 30 09:55:13 2018
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\comm_rt.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\dsp_rt.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\dspcg.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwbwpackc.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwbwpackctbb.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwbwunpackc.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwbwunpackctbb.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwcannythresholding_tbb.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwedgethinning_tbb.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwgrayto16.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwgrayto8.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwimreconstruct.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwint16touint16.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwipp.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwippBinder.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwippfilter.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwippgeotrans.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwippmedianfilter.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwippreconstruct.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwiptutil.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwmorphop_binary_tbb.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwmorphop_ipp.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwmorphop_packed.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwneighborhood.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwnhood.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwtbbhist.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\libmwuint16toint16.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\sea_fixpt_3.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\sea_sim_common.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\systemobject_mcos.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\systemobject_sfun.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\win32\systemobject_sfunmcos.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\aardvarkspidevice.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwaardvarki2c.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwadvantechgpib.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwagilentgpib.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwagilentvisa.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwcecgpib.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwcontecgpib.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwicsgpib.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwiotechgpib.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwkeithleygpib.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwmccgpib.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwni845xi2c.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwnigpib.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwnivisa.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwtekvisa.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwtestgpib.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\mwtestvisa.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\ni845xspidevice.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\instrument\instrumentadaptors\win32\spimlconverter.dll'.
+No conflicting MATLAB file found.
+End validation of MEX files: Fri Nov 30 09:55:13 2018
+[Warning: Adding path "C:\Users\Sachin\Desktop\AG_TEXz" to Compiler path
+instance.] 
+Parsing file "C:\Users\Sachin\Desktop\AG_TEXz\Test_UI.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 61 temporary MEX authorization files.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b144364_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1420180_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b142442_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1429678_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1416671_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1424739_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1410302_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1427814_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1425780_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1410218_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1410902_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b144699_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1419876_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1415919_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1422220_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b146631_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b141711_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1418236_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1413650_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1420106_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1416486_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1414965_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b141230_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1417887_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b141353_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1422121_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1412132_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b144111_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1431020_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1429351_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b149523_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1414405_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1426111_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1410398_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b146590_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1429715_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1429834_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b146951_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b144583_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1420517_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1413226_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1415882_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1410207_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b149171_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1416418_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1410594_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b149997_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1426105_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b145340_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1419185_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b143941_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1416672_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1421785_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1427229_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b144344_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b147203_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1410016_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1417505_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b149954_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b1412732_2836.auth'.
+Removing: 'C:\Users\Sachin\AppData\Local\Temp\mathworks_tmp_00b145769_2836.auth'.
+Generating file "C:\Users\Sachin\Desktop\AG_TEXz\AgTex_V10\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\compiler\Resources\default_icon.ico to C:\Users\Sachin\Desktop\AG_TEXz\AgTex_V10\for_testing\AgTex_V10.exe.
+Attempting to embed the CTF archive into the application C:\Users\Sachin\Desktop\AG_TEXz\AgTex_V10\for_testing\AgTex_V10.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\Sachin\Desktop\AG_TEXz\AgTex_V10\for_redistribution\AgTex_V10_web.exe.
+Self contained installer created at C:\Users\Sachin\Desktop\AG_TEXz\AgTex_V10\for_redistribution\AgTex_V10.exe.
+Packaging complete.
+Elapsed packaging time was: 2 minutes and 53 seconds.
